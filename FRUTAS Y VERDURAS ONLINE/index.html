@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas y Verduras</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./data.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">logo</a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <button id="display_cart">
+
+            <img src="/images/car.svg" id="img-carrito" alt="carrito">
+        </button>
+    </header>
+
+    <div id="CartList" class="list">
+        <h2> Carrito</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Importe</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="cart">
+
+            </tbody>
+        </table>
+        <p id="totalCart">Total:</p>
+    </div>
+
+    <div class="header-content container">
+        <div class="header-txt">
+            <span>Ofertas</span>
+            <h1>Frutas y Verduras</h1>
+            <p>
+                Tenemos las mejores frutas de temporada, junto con nuestro compromiso y
+                dedicación con nuestros clientes, garantiza una gran calidad y un sabor incomparable en toda nuestra
+                fruta siempre la más alta calidad en frutería online.
+            </p>
+            <a href="#" class="btn-1">Información</a>
+        </div>
+        <div class="header-img">
+            <img src="/images/rigth.png" alt="">
+        </div>
+    </div>
+
+
+    <section class="Information container">
+        <div class="information-content">
+
+            <div class="Information-1">
+                <img src="/images/i1.svg" alt="">
+                <h3>24 HORAS</h3>
+                <p>
+                    Directo a casa
+                </p>
+            </div>
+
+            <div class="Information-1">
+                <img src="/images/i2.svg" alt="">
+                <h3>PAGO SEGURO</h3>
+                <p>
+                    Al instante
+                </p>
+            </div>
+
+            <div class="Information-1">
+                <img src="/images/i3.svg" alt="">
+                <h3>TRANSPORTE INCLUIDO</h3>
+                <p>
+                    Garantizado
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="oferts container">
+        <div class="ofert-1">
+            <img src="/images/f1.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="/images/f2.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="/images/f3.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="/images/f4.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+    </section>
+
+
+    <main class="products container" id="lista-1">
+        <h2>Productos destacados</h2>
+
+        <div id="product_list" class="product-content"></div>
+
+
+
+    </main>
+
+    <section class="service">
+        <div class="service-1">
+            <img class="store" src="images/1.png" alt="">
+        </div>
+        <div class="service-2">
+            <img class="store" src="images/2.png" alt="">
+        </div>
+        <div class="service-3">
+            <img class="store" src="images/3.png" alt="">
+        </div>
+
+
+    </section>
+
+    <section class="contact container">
+
+        <form>
+            <input type="email" placeholder="Correo">
+            <input type="submit" class="btn-3">
+        </form>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="./data.js" defer></script>
+
+
+</body>
+
+</html>
